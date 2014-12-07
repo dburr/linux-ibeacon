@@ -1,8 +1,8 @@
 linux-ibeacon
 =============
 
-This is a Python script that creates an Apple® [iBeacon®][IBEACON]-compatible Bluetooth LE
-beacon using a computer running Linux and a Bluetooth LE adapter.
+This is a Python script that creates an Apple® [iBeacon®][IBEACON]-compatible
+[Bluetooth LE beacon][BTBEACONS] using a computer running Linux and a Bluetooth LE adapter.
 
 What You Need
 -------------
@@ -70,6 +70,7 @@ License
 This script is licensed under the [MIT license][MITLICENSE].
 
 [IBEACON]: https://developer.apple.com/ibeacon/ "iBeacon info page"
+[BTBEACONS]: http://www.infoworld.com/article/2608498/mobile-apps/what-you-need-to-know-about-using-bluetooth-beacons.html "Bluetooth Beacons"
 [PI]: http://www.amazon.com/dp/B00LPESRUK/?tag=otakunocast-20 "Raspberry Pi"
 [YUN]: http://www.amazon.com/dp/B00F6YJK3S/?tag=otakunocast-20 "Arduino YUN"
 [BLE]: http://en.wikipedia.org/wiki/Bluetooth_low_energy "Bluetooth LE"
