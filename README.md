@@ -48,6 +48,8 @@ How to use it
                         [-n|--simulate (implies -v)]
                         [-h|--help]
 
+This script must be run with `root` privileges in order to configure Bluetooth adapters.  It is most convenient to run it using `sudo.`
+
 By default, the script creates an iBeacon whose UUID matches that which is used by the [Beacon Toolkit iOS app][BEACON-APP-IOS],
 with major and minor both set to `0`.  These can be changed using the `-u`, `-M` and `-m` flags respectively.  When specifying
 the UUID, you can specify an explicit UUID, or by specifying `random` the script will randomly generate a UUID.
