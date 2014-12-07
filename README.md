@@ -26,8 +26,7 @@ How to use it
                         [-z|--down]
                         [-v|--verbose]
                         [-n|--simulate (implies -v)]
-                                                                                                                                                                [-h|--help]
-
+                        [-h|--help]
 
 [IBEACON]: https://developer.apple.com/ibeacon/ "iBeacon info page"
 [USB-BT-LE]: http://www.amazon.com/dp/B009ZIILLI/?tag=otakunocast-20 "Plugable USB Bluetooth 4.0 Low Energy Micro Adapter"
