@@ -77,4 +77,4 @@ This script is licensed under the [MIT license][MITLICENSE].
 [MITLICENSE]: http://opensource.org/licenses/MIT "MIT License"
 [BLE-DEVICES]: http://www.bluetooth.com/Pages/Bluetooth-Smart-Devices-List.aspx "Bluetooth LE compatible devices"
 [BEACON-APP-IOS]: https://itunes.apple.com/us/app/beacon-toolkit/id728479775?mt=8 "Beacon Toolkit iOS App"
-[BEACON-APP-ANDROID]: https://play.google.com/store/apps/details?id=kr.co.ixsoft.ibeacon.scanner&hl=en "iBeacon Scanner Android App"
+[BEACON-APP-ANDROID]: https://play.google.com/store/apps/details?id=de.flurp.beaconscanner.app "iBeacon Scanner Android App"
