@@ -2,16 +2,17 @@ linux-ibeacon
 =============
 
 This is a Python script that creates an Apple® [iBeacon®][IBEACON]-compatible Bluetooth LE
-beacon using Linux and a Bluetooth LE adapter.
+beacon using a computer running Linux and a Bluetooth LE adapter.
 
 What You Need
 -------------
 
 You need a computer capable of running Linux.  It can be a desktop or notebook PC, or any
 of the various single-board computers that are popular nowadays such as the [Raspberry Pi][PI]
-or [Arduino YUN][YUN].
+or [Arduino YUN][YUN].  It must have Python 2.6 or 2.7 installed.  This script does not need
+any special Python libraries or modules, just the ones that come standard with Python.
 
-Your version of Linux must be compatible with the new [Bluetooth 4.0 Low Energy][BLE] standard.
+Your version of Linux must be compatible with the new [Bluetooth 4.0 Low Energy (LE)][BLE] standard.
 Currently this requires version 3.5 or greater of the Linux kernel.  You will
 also need version 5.0 or greater of [BlueZ][BLUEZ], the Linux Bluetooth stack and associated
 tools.
