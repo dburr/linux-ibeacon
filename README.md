@@ -53,7 +53,8 @@ with major and minor both set to `0`.  These can be changed using the `-u`, `-M`
 the UUID, you can specify an explicit UUID, or by specifying `random` the script will randomly generate a UUID.
 
 UUID, major and minor may also be specified by setting the `IBEACON_UUID,` `IBEACON_MAJOR` and `IBEACON_MINOR` environment
-variables, respectively.
+variables, respectively.  If a value(s) is specified both in the environment as well as a command line option, the command
+line option takes precedence.
 
 To test, you will need a [device compatible with Bluetooth LE][BLE-DEVICES].  In the Apple universe, that means the iPhone 4S
 or later, iPad 3rd gen or later (including Mini and Air), and the iPod touch.  For Android, you'll have to
