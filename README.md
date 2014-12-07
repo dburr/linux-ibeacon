@@ -26,11 +26,12 @@ Your computer must also have a Bluetooth adapter (either built-in or USB) that i
 the [Bluetooth 4.0 LE][BLE] standard.  To test whether your adapter is LE-compatible, issue the
 following command:
 
-`hcitool lescan`
+`sudo hcitool lescan`
 
 If you see either nothing, or a list of MAC addresses (`aa:bb:cc:dd:ee:ff`) then your adapter
 supports Bluetooth LE.  If, on the other hand, you see any error messages in the output, then
-your adapter does not support LE.
+your adapter does not support LE.  (This command will continuously scan for devices, so to exit
+it press `Control-C.)
 
 If you don't have a LE-capable adapter, the [Plugable USB Bluetooth 4.0 Low Energy Micro Adapter][USB-BT-LE]
 is an inexpensive, low-profile USB Bluetooth adapter that is known to work well with Linux.
