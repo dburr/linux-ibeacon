@@ -56,7 +56,7 @@ variables, respectively.
 
 To test, you will need a [device compatible with Bluetooth LE][BLE-DEVICES].  In the Apple universe, that means the iPhone 4S
 or later, iPad 3rd gen or later (including Mini and Air), and the iPod touch.  For Android, you'll have to
-[check the list][BLE-DEVICDES] (most phones made within the last 2 years or so should be BLE-compatible.)  Then download
+[check the list][BLE-DEVICES] (most phones made within the last 2 years or so should be BLE-compatible.)  Then download
 either [Beacon Toolkit][BEACON-APP-IOS] (for iOS) or [iBeacon Scanner][BEACON-APP-ANDROID] (for Android.)  Fire up the app
 and begin scanning.  Your newly-created iBeacon should appear in the list.  If not, check to make sure that you
 specified the correct UUID, major and minor numbers.  (For iOS devices, if you used a non-default UUID, you will have to
