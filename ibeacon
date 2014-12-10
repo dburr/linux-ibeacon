@@ -168,8 +168,9 @@ def main(argv=None):
       print "Error: `%s' is an invalid UUID." % uuid
       return 1
 
-    # strip out - symbols from uuid
+    # strip out - symbols from uuid and turn it into uppercase
     uuid = uuid.replace("-","")
+    uuid = uuid.upper()
 
     # bounds check major/minor ids
     if major < 0 or major > 65535:
@@ -204,9 +205,9 @@ def main(argv=None):
  
     # print status info
     print "Advertising on %s with:" % device
-    print "       uuid: %s" % split_uuid
-    print "major/minor: %d/%d (%s/%s)" % (major, minor, major_hex, minor_hex)
-    print "      power: %d (%s)" % (power, power_hex)
+    print "       uuid: 0x%s" % uuid
+    print "major/minor: %d/%d (0x%s/0x%s)" % (major, minor, major_hex, minor_hex)
+    print "      power: %d (0x%s)" % (power, power_hex)
 
     # first bring up bluetooth
     process_command("hciconfig %s up" % device)
