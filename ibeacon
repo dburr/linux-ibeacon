@@ -133,7 +133,7 @@ def main(argv=None):
       elif o in ("-u", "--uuid"):
         uuid = a
         if uuid == "random":
-          uuid = get_uuid()
+          uuid = get_random_uuid()
       elif o in ("-M", "--major"):
         major = int(a)
       elif o in ("-m", "--minor"):
